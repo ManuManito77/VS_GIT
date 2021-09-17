@@ -2,13 +2,25 @@
 #include <stdlib.h>
 
 int main(){
-    int num1, num2, resultado;
-    printf("Primer valor:\n");
-    scanf("%d",&num1);
-    printf("Segundo valor:\n");
-    scanf("%d",&num2);
-    resultado = num1 + num2;
-    printf("Resultado:%d\n",resultado);
+    int x;
+
+    printf("Ingresa tu edad:\n");
+    scanf("%d",&x);
+
+    if (x >= 18)
+    {
+        printf("Wena\n");
+    }
+    else if (x == 17)
+    {
+        printf("kasjka casi pendejo");
+    }
+    else{
+        printf("no no no uwu");
+    }
+    
+    
+
     return 0;
 
 
